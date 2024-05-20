@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://2slp3rx4x4k8"]
 
-[ext_resource type="Script" path="res://scenes/movement.gd" id="1_4ij52"]
+[ext_resource type="Script" path="res://scripts/movement.gd" id="1_4ij52"]
 [ext_resource type="Texture2D" uid="uid://df7d0s451jhdx" path="res://assets/imported/sprites/knight.png" id="1_7ssmv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dvopi"]
@@ -49,7 +49,7 @@ script = ExtResource("1_4ij52")
 sprite_frames = SubResource("SpriteFrames_jmq26")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.358808
+frame_progress = 0.217968
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 6)
